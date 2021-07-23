@@ -15,7 +15,7 @@ $(document).ready(function () {
       if (resultData) {
         for (var i = 0; i < resultData.length; i++) {
           $('#sessions').append(
-            '<b><tr><td>'
+            '<tr><td>'
             + (i + 1) +
             '</td><td>'
             + resultData[i].name +
@@ -29,7 +29,7 @@ $(document).ready(function () {
             + resultData[i].available_capacity_dose2 +
             '</td><td>'
             + resultData[i].slots +
-            '</td></tr></b>'
+            '</td></tr>'
           );
         }
       }
